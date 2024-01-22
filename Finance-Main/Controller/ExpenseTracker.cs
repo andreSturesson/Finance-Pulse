@@ -11,22 +11,22 @@ namespace Finance.Main {
             return expenses;
         }
 
-        public List<Expense> CategorizeExpenses(string path) {
+        public List<Expense> CategorizeExpenses() {
             List<Expense> expenses = new List<Expense>();
             return expenses;
         }
 
-        public List<Expense> CalculateMontlyAverage(string path) {
+        public Dictionary<float, List<Expense>> CalculateMontlyAverage() {
+            Dictionary<float, List<Expense>> expenses = new Dictionary<float, List<Expense>>();
+            return expenses;
+        }
+
+        public List<Expense> SortByPrice() {
             List<Expense> expenses = new List<Expense>();
             return expenses;
         }
 
-        public List<Expense> SortByPrice(string path) {
-            List<Expense> expenses = new List<Expense>();
-            return expenses;
-        }
-
-        public List<Expense> SortByCategory(string path) {
+        public List<Expense> SortByCategory() {
             List<Expense> expenses = new List<Expense>();
             return expenses;
         }
